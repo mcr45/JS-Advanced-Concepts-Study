@@ -40,3 +40,18 @@ class User {//object as second parameter, if no argument object with nothing {}.
 Facade Pattern:
 Goal is to make it easy to change code in future, especially where we use api calls
 
+Observer pattern
+Observer pattern offers a subcription models in which object subscribe to an event and gets notified when the event occurrr
+
+class Subscriber{
+    constructor(){
+        this.subscribers=[]}
+     subscribe(fn){
+         this.subscribers.push(fn)}
+     unsubscribe(fn){
+         this.subscribers=this.subscribers.filter((item)=>{item != fn})
+    broadcast(data)//or fire{
+        for(let i=0;i<this.subscribers.length;i+ ){this.subscribers[i](data)}}
+}
+}    
+ 
