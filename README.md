@@ -55,3 +55,21 @@ class Subscriber{
 }
 }    
  
+ Destructuring:
+
+ work with arrays and objects. Easy way to assign arrays/objects value to propriety, or swap vars
+
+ let demo=[1,2,3,'star']
+
+let ['a','b','c',4]=demo
+
+['a','b','c',4]= [4,'a','b','c']
+
+
+let demoObj={
+    home:0,
+    sea:45
+}
+
+let {home:renewHouse, sea}= demoObj
+
