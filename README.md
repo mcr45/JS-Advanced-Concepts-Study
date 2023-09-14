@@ -73,3 +73,13 @@ let demoObj={
 
 let {home:renewHouse, sea}= demoObj
 
+CALLBACK
+
+function can be passed as parameter in a function
+
+function a(b){
+
+    b()
+}
+
+function b(){//do something}
