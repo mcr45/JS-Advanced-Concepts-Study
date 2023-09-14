@@ -93,3 +93,12 @@ const prom= new Promise((resolve,reject)=>{
 })
 
 prom.then((data)=>{console.log(data)})
+
+ASYN?AWAIT
+
+sintactic sugar for asynchronous functions
+
+async function(){
+    let data=await fetch(url)
+    let printer= await data.json()
+}
