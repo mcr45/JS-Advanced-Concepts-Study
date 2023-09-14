@@ -102,3 +102,12 @@ async function(){
     let data=await fetch(url)
     let printer= await data.json()
 }
+
+
+Memoization
+
+saving previous calculated values to save time in future interaction
+
+
+REFLECTION:
+well,this was a lot. They videos surely made it easier but still It will take time to feel confortable with the new syntax learned, time to recognize and apply the various design patterns. They will come in handy with Angular in particular.
