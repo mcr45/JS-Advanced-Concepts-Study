@@ -83,3 +83,13 @@ function a(b){
 }
 
 function b(){//do something}
+
+
+Promises:
+
+Completion of an async function, we expect something from a function. It may be data or some error
+const prom= new Promise((resolve,reject)=>{
+    resolve('yes yes')//resolve({name:'john'})
+})
+
+prom.then((data)=>{console.log(data)})
