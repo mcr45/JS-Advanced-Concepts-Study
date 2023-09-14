@@ -36,3 +36,7 @@ class User {//object as second parameter, if no argument object with nothing {}.
     this.address = address
   }
 }
+
+Facade Pattern:
+Goal is to make it easy to change code in future, especially where we use api calls
+
